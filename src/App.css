@@ -1,0 +1,159 @@
+.App {
+  text-align: center;
+  justify-content: center;
+}
+
+.App-header {
+  background-color:#F5F5F5;
+  min-height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 20px;
+  color: black;
+  padding-left: 30px;
+  padding-right: 30px;
+  align-items: center;
+}
+.header-title{
+  font-size: 40px;
+  font-weight: 800;
+}
+.App-headerImg {
+  height: 60px;
+  width: 60px;
+  float: left;
+  padding: 4px
+}
+
+.App-profile {
+  float: right;
+  padding-right: 10px;
+  font-size: 14px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App-table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.app-sub-container{
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+.marginTop20{
+ margin-top: 20px;
+}
+.text-align-left{
+  text-align: left;
+}
+
+.feature-container{
+  width: 30%;
+  margin: auto;
+}
+.feature-sub-container{
+  display: flex;
+  justify-content: space-around;
+  margin-left: 40px;
+}
+.feature-sub-container div:first-child{
+  width: 20%;
+  display: inline-block;
+  text-align: left;
+  font-weight: bold;
+  margin: 4px 0 5px 0;
+  font-size: 14px;
+}
+
+.feature-sub-container div:nth-of-type(2){
+  width: 60%;
+  display: inline-block;
+  text-align: left;
+  font-size: 14px;
+}
+
+.profileImg {
+  width: 140px;
+  float: left;
+  padding: 4px
+}
+
+.profile-container {
+  width:50%;
+  margin: auto;
+}
+
+.profile-sub-container{
+  justify-content: space-around;
+}
+
+.vertical-align-top {
+  vertical-align: top;
+}
+
+.profile-sub-container div:first-child{
+  width: 15%;
+  display: inline-block;
+  text-align: left;
+  font-weight: bold;
+  margin: 4px 0 5px 0;
+  font-size: 14px;
+}
+
+.profile-sub-container div:nth-of-type(2){
+  width: 29%;
+  display: inline-block;
+  text-align: left;
+  font-size: 14px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #F5F5F5;
+  color: gray;
+  text-align: right;
+  font-size: 8px;
+}
+
+.photo-container {
+  position: relative;
+}
+
+.photo {
+  position: absolute;
+  top: 174px;
+  left: 358px;
+  width: 856px;
+  height: 420px;
+}
+
+.overlay {
+  position: absolute;
+  top: 28px;
+  left: 0px;
+  width: 1913px;
+  height: 965px;
+  pointer-events: none;
+}
+
+.color-picker {
+  position: absolute;
+  top: 165px;
+  left: 465px;
+}
+
+.mask-picker {
+  position: absolute;
+  top: 135px;
+  left: 1100px;
+}
